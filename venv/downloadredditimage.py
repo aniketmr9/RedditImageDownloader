@@ -4,7 +4,7 @@ r = praw.Reddit(client_id='client_id', #add your client id
                      client_secret='client_secret', #add your client secret
                      username='username', #reddit username
                      password='password', #reddit password
-                     user_agent='testbot by /u/aniketmr10') #message, can be anything
+                     user_agent='testbot by /u/testbot') #message, can be anything
 #r = praw.Reddit("Get top post")
 urls = []
 subreddit = r.subreddit('EarthPorn') #mention the name of the subreddit eg. r/EarthPorn, r/games
